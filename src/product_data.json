@@ -1,0 +1,262 @@
+[
+  {
+    "product_id": "P001",
+    "name": "Samsung Galaxy S23 Ultra",
+    "image_url": {
+      "preview": "https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzkwins-534863591?$624_624_PNG$",
+      "img1": "https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzkwins-534863591?$624_624_PNG$",
+      "img2": "https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzkwins-534863591?$624_624_PNG$"
+    },
+    "price": {
+      "amazon": 94999,
+      "samsung": 95500
+    },
+    "brand_logo": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Samsung_wordmark.svg",
+    "ratings": 4.6,
+    "specifications": [
+      "6.8-inch AMOLED display",
+      "12GB RAM",
+      "256GB Storage",
+      "5000mAh Battery",
+      "Snapdragon 8 Gen 2"
+    ],
+    "reviews": [
+      "Amazing display and camera!",
+      "Bit pricey but totally worth it."
+    ]
+  },
+  {
+    "product_id": "P002",
+    "name": "Apple MacBook Air M2",
+    "image_url": {
+      "preview": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mba_13_m3_2024_hero.png",
+     "img1": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mba_13_m3_2024_hero.png",
+      "img2": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mba_13_m3_2024_hero.png"
+    },
+    "price": {
+      "amazon": 109990,
+      "apple": 111000
+    },
+    "brand_logo": "https://www.svgrepo.com/show/303110/apple-black-logo.svg",
+    "ratings": 4.8,
+    "specifications": [
+      "13.6-inch Retina Display",
+      "8GB Unified Memory",
+      "256GB SSD",
+      "Apple M2 Chip",
+      "18-Hour Battery Life"
+    ],
+    "reviews": [
+      "Super fast and sleek.",
+      "Perfect for students and professionals."
+    ]
+  },
+  {
+    "product_id": "P003",
+    "name": "Sony WH-1000XM5 Headphones",
+    "image_url": {
+      "preview": "https://store.sony.com.au/dw/image/v2/ABBC_PRD/on/demandware.static/-/Sites-sony-master-catalog/default/dwee3d734b/images/WH1000XM5P/WH1000XM5P.png?sw=442&sh=442&sm=fit",
+       "img1": "https://store.sony.com.au/dw/image/v2/ABBC_PRD/on/demandware.static/-/Sites-sony-master-catalog/default/dwee3d734b/images/WH1000XM5P/WH1000XM5P.png?sw=442&sh=442&sm=fit",
+      "img2": "https://store.sony.com.au/dw/image/v2/ABBC_PRD/on/demandware.static/-/Sites-sony-master-catalog/default/dwee3d734b/images/WH1000XM5P/WH1000XM5P.png?sw=442&sh=442&sm=fit"
+    },
+    "price": {
+      "amazon": 29990,
+      "sony": 30200
+    },
+    "brand_logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg",
+    "ratings": 4.7,
+    "specifications": [
+      "Industry Leading Noise Cancellation",
+      "30 Hours Battery",
+      "Touch Controls",
+      "Alexa Enabled",
+      "Type-C Fast Charging"
+    ],
+    "reviews": [
+      "Unmatched sound quality.",
+      "Most comfortable headphones I've owned."
+    ]
+  },
+  {
+    "product_id": "P004",
+    "name": "LG 55-inch 4K Smart OLED TV",
+    "image_url": {
+      "preview": "https://www.sathya.store/img/product/HRZc42rG5vdPRKRe.png",
+      "img1": "https://www.sathya.store/img/product/HRZc42rG5vdPRKRe.png",
+      "img2": "https://www.sathya.store/img/product/HRZc42rG5vdPRKRe.png"
+    },
+    "price": {
+      "amazon": 130990,
+      "LG": 132000
+    },
+    "brand_logo": "https://upload.wikimedia.org/wikipedia/commons/8/8d/LG_logo_%282014%29.svg",
+    "ratings": 4.5,
+    "specifications": [
+      "OLED Display",
+      "4K Ultra HD",
+      "Dolby Vision & Atmos",
+      "WebOS Smart TV",
+      "HDMI x 4, USB x 3"
+    ],
+    "reviews": [
+      "Best picture quality ever!",
+      "Feels like a cinema at home."
+    ]
+  },
+  {
+    "product_id": "P005",
+    "name": "Dell XPS 13 Laptop",
+    "image_url": {
+      "preview": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/13-9340/pdp/laptop-xps-13-9340-pdp-effortless-mobility-sl.psd?fmt=png-alpha&wid=1920&hei=1080",
+      "img1": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/13-9340/pdp/laptop-xps-13-9340-pdp-effortless-mobility-sl.psd?fmt=png-alpha&wid=1920&hei=1080",
+      "img2": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/13-9340/pdp/laptop-xps-13-9340-pdp-effortless-mobility-sl.psd?fmt=png-alpha&wid=1920&hei=1080"
+    },
+    "price": {
+      "amazon": 120990,
+      "Dell": 128500
+    },
+    "brand_logo": "https://upload.wikimedia.org/wikipedia/commons/4/48/Dell_Logo.svg",
+    "ratings": 4.4,
+    "specifications": [
+      "13.4-inch FHD+ Display",
+      "Intel i7 12th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "Intel Iris Xe Graphics"
+    ],
+    "reviews": [
+      "Great for programming and travel.",
+      "Battery life could be better."
+    ]
+  },
+  {
+    "product_id": "P006",
+    "name": "Canon EOS R10 Mirrorless Camera",
+    "image_url": {
+      "preview": "https://wallpapers.com/images/hd/transparent-canon-camera-png-oks-7rt5x0y4dy5qm6cx.png",
+       "img1": "https://wallpapers.com/images/hd/transparent-canon-camera-png-oks-7rt5x0y4dy5qm6cx.png",
+      "img2": "https://wallpapers.com/images/hd/transparent-canon-camera-png-oks-7rt5x0y4dy5qm6cx.png"
+    },
+    "price": {
+      "amazon": 85990,
+      "canon": 87000
+    },
+    "brand_logo": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Canon_wordmark.svg",
+    "ratings": 4.6,
+    "specifications": [
+      "24.2MP APS-C Sensor",
+      "4K 60p Video",
+      "Dual Pixel AF",
+      "Wi-Fi & Bluetooth",
+      "Vari-Angle LCD Screen"
+    ],
+    "reviews": [
+      "Perfect for vloggers and travel.",
+      "Excellent autofocus system."
+    ]
+  },
+  {
+    "product_id": "P007",
+    "name": "iQOO Neo 7 5G Smartphone",
+    "image_url": {
+      "preview": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1688368107643/07a67b30f61ada799cd27cad353bcfec.png",
+      "img1": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1688368107643/07a67b30f61ada799cd27cad353bcfec.png",
+      "img2": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1688368107643/07a67b30f61ada799cd27cad353bcfec.png"
+    },
+    "price": {
+      "amazon": 29999,
+      "iQOO": 30500
+    },
+    "brand_logo": "https://upload.wikimedia.org/wikipedia/commons/a/aa/IQOO_logo.svg",
+    "ratings": 4.3,
+    "specifications": [
+      "Dimensity 8200 Processor",
+      "120Hz AMOLED Display",
+      "8GB RAM",
+      "5000mAh Battery",
+      "120W Fast Charging"
+    ],
+    "reviews": [
+      "Gaming beast at this price!",
+      "Smooth performance and charging."
+    ]
+  },
+  {
+    "product_id": "P008",
+    "name": "HP DeskJet 2331 Printer",
+    "image_url": {
+      "preview": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/0/60K34B-1_T1696992933.png",
+      "img1": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/0/60K34B-1_T1696992933.png",
+      "img2": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/0/60K34B-1_T1696992933.png"
+    },
+    "price": {
+      "amazon": 3799,
+      "HP": 3890
+    },
+    "brand_logo": "https://upload.wikimedia.org/wikipedia/commons/a/ad/HP_logo_2012.svg",
+    "ratings": 4.0,
+    "specifications": [
+      "All-in-One Printer",
+      "USB Connectivity",
+      "Color Print, Scan, Copy",
+      "Compact Design",
+      "Affordable Ink"
+    ],
+    "reviews": [
+      "Great for home use.",
+      "Setup was simple and quick."
+    ]
+  },
+  {
+    "product_id": "P009",
+    "name": "boAt Airdopes 141",
+    "image_url": {
+      "preview": "https://www.boat-lifestyle.com/cdn/shop/files/Artboard_1__9_-removebg-preview.png?v=1689144453",
+     "img1": "https://m.media-amazon.com/images/I/71RFdy6y6LL._AC_UF1000,1000_QL80_.jpg",
+      "img2": "https://m.media-amazon.com/images/I/71RFdy6y6LL._AC_UF1000,1000_QL80_.jpg"
+    },
+    "price": {
+      "amazon": 1299,
+      "boAt": 1350
+    },
+    "brand_logo": "https://upload.wikimedia.org/wikipedia/commons/4/49/BoAt_logo.png",
+    "ratings": 4.2,
+    "specifications": [
+      "42 Hours Playback",
+      "IPX4 Water Resistance",
+      "ENx Noise Cancellation",
+      "Bluetooth v5.0",
+      "Fast Charging"
+    ],
+    "reviews": [
+      "Value for money!",
+      "Sound quality is surprisingly good."
+    ]
+  },
+  {
+    "product_id": "P010",
+    "name": "Mi Smart Band 7",
+    "image_url": {
+      "preview": "https://i02.appmifile.com/mi-com-product/fly-birds/xiaomi-smart-band-7/67dfa2393a23b0cd590d3ae04487f759.png",
+      "img1": "https://i02.appmifile.com/mi-com-product/fly-birds/xiaomi-smart-band-7/67dfa2393a23b0cd590d3ae04487f759.png",
+      "img2": "https://i02.appmifile.com/mi-com-product/fly-birds/xiaomi-smart-band-7/67dfa2393a23b0cd590d3ae04487f759.png"
+    },
+    "price": {
+      "amazon": 3499,
+      "Mi": 3600
+    },
+    "brand_logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/Xiaomi_logo.svg",
+    "ratings": 4.1,
+    "specifications": [
+      "1.62-inch AMOLED Display",
+      "120+ Fitness Modes",
+      "SpO2 & Heart Rate Monitoring",
+      "Water Resistant (5ATM)",
+      "Up to 14 Days Battery"
+    ],
+    "reviews": [
+      "Great fitness tracker for budget.",
+      "UI is smooth and responsive."
+    ]
+  }
+]
