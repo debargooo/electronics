@@ -64,7 +64,7 @@ export default function Navbar() {
     <Link to="/products" className={getActiveLink("/products")}>All Products</Link>
     <a href="#" className={getActiveLink("/trending")}>Trending</a>
     <a href="#" className={getActiveLink("/mobiles")}>Mobiles</a>
-    <a href="#" className={getActiveLink("/accessories")}>Accessories</a>
+    <Link to="/about" className={getActiveLink("/about")}>About</Link>
     <a href="#" className={getActiveLink("/brands")}>Brands</a>
   </div>
 </div>
