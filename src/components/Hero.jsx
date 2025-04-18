@@ -52,7 +52,7 @@ const Hero = () => {
       })}
 
       {/* Text content */}
-      <div className="absolute bottom-32 left-6 sm:bottom-[70px] sm:left-[75px] text-[3.5vw] sm:text-[1.2vw] z-30">
+      <div className="absolute bottom-10 left-5 lg:bottom-32 lg:left-6 sm:bottom-[70px] sm:left-[75px] text-[3.5vw] sm:text-[1.2vw] z-30">
         <span className="uppercase font-semibold block">New Spring</span>
         <span className="uppercase font-semibold block">Essentials</span>
       </div>

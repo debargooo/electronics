@@ -3,6 +3,7 @@ import products from '../product_data.json';
 import Navbar from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { Link, useLocation } from 'react-router-dom';
+import { FaFilter } from "react-icons/fa";
 
 const Products = () => {
   const [selectedBrand, setSelectedBrand] = useState('');
@@ -25,61 +26,80 @@ const Products = () => {
     return brandMatch && ratingMatch && searchMatch;
   });
 
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
+
   return (
     <>
       <Navbar />
       <div className="flex gap-6 px-6 py-8 bg-gray-50 min-h-screen flex-wrap lg:flex-nowrap">
         {/* Sidebar */}
-        <div className="w-full lg:w-64 bg-white p-4 rounded shadow mb-6 lg:mb-0">
-          <h2 className="text-xl font-semibold mb-4">Filters</h2>
+       {/* Sidebar */}
+<div className="w-full lg:w-64 bg-white p-4 rounded shadow mb-6 lg:mb-0">
+  <div className="flex items-center justify-center lg:hidden mb-4 bg-blue-500 text-white">
+    <button
+      onClick={() => setMobileFiltersOpen(!mobileFiltersOpen)}
+      className="  px-4 py-2 rounded"
+    >
+      {mobileFiltersOpen ? 'Hide Filters' : 'Show Filters'}
+    </button>
+    <FaFilter />
+  </div>
 
-          <div className="mb-4">
-            <h4 className="font-medium mb-2">Brand</h4>
-            {brands.map((brand) => (
-              <div key={brand} className="flex items-center mb-1">
-                <input
-                  type="radio"
-                  id={brand}
-                  name="brand"
-                  value={brand}
-                  onChange={() => setSelectedBrand(brand)}
-                  checked={selectedBrand === brand}
-                  className="mr-2"
-                />
-                <label htmlFor={brand}>{brand}</label>
-              </div>
-            ))}
-            <button
-              onClick={() => setSelectedBrand('')}
-              className="text-blue-500 text-sm mt-2"
-            >
-              Clear Brand
-            </button>
-          </div>
+  <div className={`${mobileFiltersOpen ? '' : 'hidden'} lg:block`}>
+    <h2 className="text-xl font-semibold mb-4">Filters</h2>
 
-          <div className="mb-4">
-            <h4 className="font-medium mb-2">Minimum Rating</h4>
-            {[4.5, 4.0, 3.5, 3.0].map(rating => (
-              <div key={rating} className="flex items-center mb-1">
-                <input
-                  type="radio"
-                  name="rating"
-                  value={rating}
-                  onChange={() => setMinRating(rating)}
-                  checked={minRating === rating}
-                  className="mr-2"
-                />
-                <label>{rating} ★ & up</label>
-              </div>
-            ))}
-            <button
-              onClick={() => setMinRating(0)}
-              className="text-blue-500 text-sm mt-2"
-            >
-              Clear Rating
-            </button>
-          </div>
+    {/* Brand Filter */}
+    <div className="mb-4">
+      <h4 className="font-medium mb-2">Brand</h4>
+      {brands.map((brand) => (
+        <div key={brand} className="flex items-center mb-1">
+          <input
+            type="radio"
+            id={brand}
+            name="brand"
+            value={brand}
+            onChange={() => setSelectedBrand(brand)}
+            checked={selectedBrand === brand}
+            className="mr-2"
+          />
+          <label htmlFor={brand}>{brand}</label>
         </div>
+      ))}
+      <button
+        onClick={() => setSelectedBrand('')}
+        className="text-blue-500 text-sm mt-2"
+      >
+        Clear Brand
+      </button>
+    </div>
+
+    {/* Rating Filter */}
+    <div className="mb-4">
+      <h4 className="font-medium mb-2">Minimum Rating</h4>
+      {[4.5, 4.0, 3.5, 3.0].map(rating => (
+        <div key={rating} className="flex items-center mb-1">
+          <input
+            type="radio"
+            name="rating"
+            value={rating}
+            onChange={() => setMinRating(rating)}
+            checked={minRating === rating}
+            className="mr-2"
+          />
+          <label>{rating} ★ & up</label>
+        </div>
+      ))}
+      <button
+        onClick={() => setMinRating(0)}
+        className="text-blue-500 text-sm mt-2"
+      >
+        Clear Rating
+      </button>
+    </div>
+  </div>
+</div>
+
 
         {/* Product List */}
         <div className="flex-1 space-y-6">
