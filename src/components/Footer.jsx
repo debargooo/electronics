@@ -92,12 +92,12 @@ export const Footer = () => {
                 </p>
                 <ul className="mt-2 space-y-2">
                   <li>
-                    <a
-                      href="/"
+                    <Link
+                      to="/privacy-policy"
                       className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                     >
-                      Privacy
-                    </a>
+                      Privacy & Policy
+                    </Link>
                   </li>
                   <li>
                     <a
